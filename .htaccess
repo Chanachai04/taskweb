@@ -1,7 +1,0 @@
-RewriteEngine On
-RewriteRule ^getall/?$ ./apis/get_all_task_api.php [NC,L]
-RewriteRule ^deletetask/?$ ./apis/delete_task_by_id_api.php [NC,L]
-RewriteRule ^gettaskbynameandstatus/?$ ./apis/get_task_by_task_name_and_task_status_api.php [NC,L]
-RewriteRule ^gettaskbyname/?$ ./apis/get_task_by_task_name_api.php [NC,L]
-RewriteRule ^updatetask/?$ ./apis/update_task_by_id_api.php [NC,L]
-RewriteRule ^addtask/?$ ./apis/add_task_api.php [NC,L]
